@@ -3,6 +3,6 @@ on: workflow_dispatch
 jobs:
   output:
     runs-on: ubuntu-latest
-    jobs:
+    steps:
       - name: output
         run: echo "${{ github }}"
